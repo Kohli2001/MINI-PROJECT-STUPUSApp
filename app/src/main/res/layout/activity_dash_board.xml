@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoard">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="228dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="116dp"
+        android:text="@string/dashboard"
+        android:textColor="#0918A3"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/attendance"
+        android:layout_width="221dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/attendance"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#44CF5B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/feeDetails"
+        android:layout_width="222dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/fee_details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#9C27B0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/attendance" />
+
+    <Button
+        android:id="@+id/studentsinfo"
+        android:layout_width="224dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/students_information"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feeDetails"
+        app:layout_constraintVertical_bias="0.116" />
+</androidx.constraintlayout.widget.ConstraintLayout>

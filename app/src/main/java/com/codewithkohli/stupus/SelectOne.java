@@ -8,7 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.codewithkohli.stupus.ui.login.LoginActivity;
+import com.codewithkohli.stupus.ui.login.*;
+import com.codewithkohli.stupus.Login;
 
 public class SelectOne extends AppCompatActivity {
     Button institutelogin;
@@ -22,7 +23,7 @@ public class SelectOne extends AppCompatActivity {
         institutelogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(SelectOne.this, LoginActivity.class);
+               Intent intent2 = new Intent(SelectOne.this, Login.class);
                 startActivity(intent2);
             }
         });

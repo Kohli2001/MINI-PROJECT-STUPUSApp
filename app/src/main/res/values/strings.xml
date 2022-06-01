@@ -10,4 +10,17 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="postal_address">Postal Address</string>
+    <string name="welcome_to_stupus">Welcome To StuPus</string>
+    <string name="institute_name">Institute Name</string>
+    <string name="password">Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="register_here">Register Here....</string>
+    <string name="submit">Submit</string>
+    <string name="e_mail">E-mail</string>
+    <string name="institute_code">Institute Code</string>
+    <string name="attendance">ATTENDANCE</string>
+    <string name="fee_details">Fee Details</string>
+    <string name="students_information">STUDENTS INFORMATION</string>
+    <string name="dashboard">DASHBOARD</string>
 </resources>
